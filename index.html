@@ -1,81 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>座位表</title>
-</head>
-<body>
-    <table border="1" width="500">
-        <tr height="50">
-            <th rowspan="2" colspan="2">柱子</th>
-            <th width="100" rowspan="10">过道</th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr height="50">
-            
-            <th></th>
-            <th></th>
-        </tr>
-        <tr height="50">
-            <th width="100"></th>
-            <th width="100"></th>
-
-            <th width="100"></th>
-            <th width="100"></th>
-        </tr>
-        <tr height="50">
-            <th>吴瑞森</th>
-            <th></th>
-            
-            <th>邓富铖</th>
-            <th>齐云飞</th>
-        </tr>
-        <tr height="50">
-            <th></th>
-            <th>李捷东</th>
-            
-            <th></th>
-            <th>黄子杰</th>
-        </tr>
-        <tr height="50">
-            <th>张帆</th>
-            <th></th>
-            
-            <th>徐庆烽</th>
-            <th>周伯涛</th>
-        </tr>
-        <tr height="50">
-            <th>邓国东</th>
-            <th>陈泽杰</th>
-            
-            <th>林郁腾</th>
-            <th>杨杰沛</th>
-        </tr>
-        <tr height="50">
-            <th></th>
-            <th>吴靖辉</th>
-            
-            <th>黄敏桓</th>
-            <th>陈志杰</th>
-        </tr>
-        <tr height="50">
-            <th>武长斌</th>
-            <th></th>
-            
-            <th>陈钊汶</th>
-            <th></th>
-        </tr>
-        <tr height="50">
-            <th></th>
-            <th></th>
-            
-            <th></th>
-            <th></th>
-        </tr>
-        <tr height="50">
-            <th colspan="2">讲台</th>
-        </tr>
-    </table>
-</body>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			td {
+				text-align: center;
+			}
+			.yr{
+				background: green;
+				transition: 0.3s;
+			}
+			.yr:hover{
+				transform:rotate(360deg);
+			}
+		</style>
+	</head>
+	<body>
+		<table width="760" border="1" height="460" align="center">
+			<h1 align="center">教室布局</h1>
+			<tr>
+				<td colspan="2" rowspan="2">柱子</td>
+				<td rowspan="10">过道</td>
+				<td>1</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td class="yr">11</td>
+				<td>12</td>
+				<td class="yr">13</td>
+				<td class="yr">14</td>
+			</tr>
+			<tr>
+				<td>15</td>
+				<td class="yr">16</td>
+				<td>17</td>
+				<td class="yr">18</td>
+			</tr>
+			<tr>
+				<td class="yr">19</td>
+				<td>20</td>
+				<td class="yr">21</td>
+				<td class="yr">22</td>
+			</tr>
+			<tr>
+				<td class="yr">23</td>
+				<td class="yr">24</td>
+				<td class="yr">25</td>
+				<td class="yr">26</td>
+			</tr>
+			<tr>
+				<td>27</td>
+				<td class="yr">28</td>
+				<td class="yr">29</td>
+				<td class="yr">30</td>
+			</tr>
+			<tr>
+				<td class="yr">27</td>
+				<td>28</td>
+				<td class="yr">29</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td>27</td>
+				<td>28</td>
+				<td>29</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td class="yr" colspan="2">讲座</td>
+			</tr>
+		</table>
+	</body>
 </html>
